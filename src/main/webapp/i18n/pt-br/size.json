@@ -2,11 +2,11 @@
     "storeApp": {
         "Size": {
             "null": "",
-            "S": "S",
+            "S": "P",
             "M": "M",
-            "L": "L",
-            "XL": "XL",
-            "XXL": "XXL"
+            "L": "G",
+            "XL": "GG",
+            "XXL": "GGG"
         }
     }
 }

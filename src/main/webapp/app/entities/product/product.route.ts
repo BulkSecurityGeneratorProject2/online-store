@@ -44,7 +44,7 @@ export const productRoute: Routes = [
         canActivate: [UserRouteAccessService]
     },
     {
-        path: 'product/:id/view',
+        path: 'product/:id',
         component: ProductDetailComponent,
         resolve: {
             product: ProductResolve

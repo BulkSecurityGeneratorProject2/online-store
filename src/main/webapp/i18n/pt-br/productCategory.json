@@ -2,22 +2,22 @@
     "storeApp": {
         "productCategory": {
             "home": {
-                "title": "Product Categories",
-                "createLabel": "Criar novo Product Category",
-                "createOrEditLabel": "Criar ou editar Product Category"
+                "title": "Categorias de Produto",
+                "createLabel": "Criar novo Categoria de Produto",
+                "createOrEditLabel": "Criar ou editar Categoria de Produto"
             },
-            "created": "Um novo Product Category foi criado com o identificador {{ param }}",
-            "updated": "Um Product Category foi atualizado com o identificador {{ param }}",
-            "deleted": "Um Product Category foi deletado com o identificador {{ param }}",
+            "created": "Uma nova Categoria de Produto foi criada com o identificador {{ param }}",
+            "updated": "Uma Categoria de Produto foi atualizada com o identificador {{ param }}",
+            "deleted": "Uma Categoria de Produto foi deletada com o identificador {{ param }}",
             "delete": {
-                "question": "Tem certeza de que deseja excluir Product Category {{ id }}?"
+                "question": "Tem certeza de que deseja excluir Categoria de Produto {{ id }}?"
             },
             "detail": {
-                "title": "Product Category"
+                "title": "Categoria de Produto"
             },
-            "name": "Name",
-            "description": "Description",
-            "product": "Product"
+            "name": "Nome",
+            "description": "Descrição",
+            "product": "Produto"
         }
     }
 }
