@@ -47,12 +47,12 @@
                                  style="max-height: 150px;" alt="product image"/>
                         </div>
                     </div>
-                    <div class="colcol-xs-12">
+                    <div class="col col-xs-12">
                         <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-1">{{product.name}}</h5>
                             <small *ngIf="product.productCategory">
                                 <a [routerLink]="['../product-category', product.productCategory]">
-                                    {{product.productCategory?.name}}
+                                    Categoria: {{product.productCategory?.name}}
                                 </a>
                             </small>
                         </div>
