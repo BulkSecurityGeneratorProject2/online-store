@@ -30,7 +30,7 @@
                     <span jhiTranslate="storeApp.product.size">Size</span>
                     <span class="fa fa-sort"></span>
                 </button>
-                <button type="button" class="btn btn-light" jhiSortBy="productCategory.id">
+                <button type="button" class="btn btn-light" jhiSortBy="productCategory?.name">
                     <span jhiTranslate="storeApp.product.productCategory">Product Category</span>
                     <span class="fa fa-sort"></span>
                 </button>
@@ -52,7 +52,7 @@
                             <h5 class="mb-1">{{product.name}}</h5>
                             <small *ngIf="product.productCategory">
                                 <a [routerLink]="['../product-category', product.productCategory]">
-                                    {{product.productCategory?.id}}
+                                    {{product.productCategory?.name}}
                                 </a>
                             </small>
                         </div>
