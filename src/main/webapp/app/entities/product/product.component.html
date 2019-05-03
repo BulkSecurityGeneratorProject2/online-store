@@ -38,7 +38,7 @@
         </div>
         <div class="list-group">
             <a *ngFor="let product of (products | pureFilter:filter:'name'); trackBy: trackId"
-               [routerLink]="['../product', product.id]"
+               [routerLink]="['../product', product.id, 'view']"
                class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="row">
                     <div class="col-2 col-xs-12 justify-content-center">
