@@ -3,14 +3,14 @@
         "productCategory": {
             "home": {
                 "title": "Categorias de Produto",
-                "createLabel": "Criar novo Categoria de Produto",
-                "createOrEditLabel": "Criar ou editar Categoria de Produto"
+                "createLabel": "Criar nova Categoria",
+                "createOrEditLabel": "Criar ou editar Categoria"
             },
-            "created": "Uma nova Categoria de Produto foi criada com o identificador {{ param }}",
-            "updated": "Uma Categoria de Produto foi atualizada com o identificador {{ param }}",
-            "deleted": "Uma Categoria de Produto foi deletada com o identificador {{ param }}",
+            "created": "Uma nova Categoria foi criada com o identificador {{ param }}",
+            "updated": "Uma Categoria foi atualizada com o identificador {{ param }}",
+            "deleted": "Uma Categoria foi deletada com o identificador {{ param }}",
             "delete": {
-                "question": "Tem certeza de que deseja excluir Categoria de Produto {{ id }}?"
+                "question": "Tem certeza de que deseja excluir Categoria {{ id }}?"
             },
             "detail": {
                 "title": "Categoria de Produto"

@@ -2,28 +2,28 @@
     "storeApp": {
         "invoice": {
             "home": {
-                "title": "Invoices",
-                "createLabel": "Criar novo Invoice",
-                "createOrEditLabel": "Criar ou editar Invoice"
+                "title": "Faturas",
+                "createLabel": "Criar nova Fatura",
+                "createOrEditLabel": "Criar ou editar Fatura"
             },
-            "created": "Um novo Invoice foi criado com o identificador {{ param }}",
-            "updated": "Um Invoice foi atualizado com o identificador {{ param }}",
-            "deleted": "Um Invoice foi deletado com o identificador {{ param }}",
+            "created": "Uma nova Fatura foi criada com o identificador {{ param }}",
+            "updated": "Uma Fatura foi atualizada com o identificador {{ param }}",
+            "deleted": "Uma Fatura foi deletada com o identificador {{ param }}",
             "delete": {
-                "question": "Tem certeza de que deseja excluir Invoice {{ id }}?"
+                "question": "Tem certeza de que deseja excluir Fatura {{ id }}?"
             },
             "detail": {
-                "title": "Invoice"
+                "title": "Fatura"
             },
-            "date": "Date",
-            "details": "Details",
+            "date": "Data",
+            "details": "Detalhes",
             "status": "Status",
-            "paymentMethod": "Payment Method",
-            "paymentDate": "Payment Date",
-            "paymentAmount": "Payment Amount",
-            "code": "Code",
-            "shipment": "Shipment",
-            "order": "Order"
+            "paymentMethod": "Método de pagamento",
+            "paymentDate": "Data do pagamento",
+            "paymentAmount": "Valor do pagamento",
+            "code": "Código",
+            "shipment": "Envio",
+            "order": "Ordem"
         }
     }
 }

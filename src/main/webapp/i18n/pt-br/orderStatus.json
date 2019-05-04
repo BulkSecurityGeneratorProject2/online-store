@@ -2,9 +2,9 @@
     "storeApp": {
         "OrderStatus": {
             "null": "",
-            "COMPLETED": "COMPLETED",
-            "PENDING": "PENDING",
-            "CANCELED": "CANCELED"
+            "COMPLETED": "COMPLETO",
+            "PENDING": "PENDENTE",
+            "CANCELED": "CANCELADO"
         }
     }
 }

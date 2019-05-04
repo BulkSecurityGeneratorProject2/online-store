@@ -2,24 +2,24 @@
     "storeApp": {
         "orderItem": {
             "home": {
-                "title": "Order Items",
-                "createLabel": "Criar novo Order Item",
-                "createOrEditLabel": "Criar ou editar Order Item"
+                "title": "Itens do Pedido",
+                "createLabel": "Criar novo Item de pedido",
+                "createOrEditLabel": "Criar ou editar Item de Pedido"
             },
-            "created": "Um novo Order Item foi criado com o identificador {{ param }}",
-            "updated": "Um Order Item foi atualizado com o identificador {{ param }}",
-            "deleted": "Um Order Item foi deletado com o identificador {{ param }}",
+            "created": "Um novo Item de Pedido foi criado com o identificador {{ param }}",
+            "updated": "Um Item de Pedido foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Item de Pedido foi deletado com o identificador {{ param }}",
             "delete": {
-                "question": "Tem certeza de que deseja excluir Order Item {{ id }}?"
+                "question": "Tem certeza de que deseja excluir Item de Pedido {{ id }}?"
             },
             "detail": {
-                "title": "Order Item"
+                "title": "Item de Pedido"
             },
-            "quantity": "Quantity",
-            "totalPrice": "Total Price",
+            "quantity": "Quantidade",
+            "totalPrice": "Preço Total",
             "status": "Status",
-            "product": "Product",
-            "order": "Order"
+            "product": "Produto",
+            "order": "Pedido"
         }
     }
 }

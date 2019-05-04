@@ -2,23 +2,23 @@
     "storeApp": {
         "shipment": {
             "home": {
-                "title": "Shipments",
-                "createLabel": "Criar novo Shipment",
-                "createOrEditLabel": "Criar ou editar Shipment"
+                "title": "Envios",
+                "createLabel": "Criar novo Envio",
+                "createOrEditLabel": "Criar ou editar Envio"
             },
-            "created": "Um novo Shipment foi criado com o identificador {{ param }}",
-            "updated": "Um Shipment foi atualizado com o identificador {{ param }}",
-            "deleted": "Um Shipment foi deletado com o identificador {{ param }}",
+            "created": "Um novo Envio foi criado com o identificador {{ param }}",
+            "updated": "Um Envio foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Envio foi deletado com o identificador {{ param }}",
             "delete": {
-                "question": "Tem certeza de que deseja excluir Shipment {{ id }}?"
+                "question": "Tem certeza de que deseja excluir Envio {{ id }}?"
             },
             "detail": {
-                "title": "Shipment"
+                "title": "Envio"
             },
-            "trackingCode": "Tracking Code",
-            "date": "Date",
-            "details": "Details",
-            "invoice": "Invoice"
+            "trackingCode": "Código de rastreio",
+            "date": "Data",
+            "details": "Detalhes",
+            "invoice": "Fatura"
         }
     }
 }
